@@ -1,0 +1,81 @@
+.continar{
+    background-color: rgb(144, 227, 222);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: auto;
+    margin: 30px;
+}
+.card{
+
+    display:inline-block;
+    margin: 5px;
+    height: 500px;
+    border: 1px solid white;
+    background-image: linear-gradient(90deg,rgb(99, 93, 76),rgb(96, 162, 237));
+    
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 38, 36);
+}
+.text-center{
+    text-align: center;
+    color: white;
+
+}
+.card-text{
+    text-align: center;
+    color: white;
+}
+.card-img-top{
+    margin: 20px;
+  padding: 20px;
+  width: 300px;
+  height: 150px;
+}
+
+.btn_div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn-primary{
+    border: 1px solid white;
+    font-size: 20px;
+    margin: 10px;
+   padding:10px;
+   color: white;
+   background-image: linear-gradient(90deg,rgb(123, 118, 105),rgb(45, 125, 217));
+}
+.popup{
+    font-size: 30px;
+    width:600px;
+    height: auto;
+    background-color:rgb(182, 206, 167);
+    border-radius: 6px;
+    position:fixed;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color:#333;
+    display: none;
+    transition: transform 0.4s,top 0.4s;
+}
+.open-popup{
+    display:block;
+    top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.popbutton{
+    color:rgb(27, 22, 22);
+    background-color:rgb(226, 223, 136);
+    width: 70px;
+    margin: 20px;
+    padding: 5px;
+}
